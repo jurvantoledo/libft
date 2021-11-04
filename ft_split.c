@@ -2,7 +2,7 @@
 
 int	wrcount(char const *str, char c)
 {
-	size_t	count;
+	int	count;
 
 	count = 0;
 	while (*str != '\0')
