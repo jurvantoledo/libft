@@ -9,7 +9,7 @@
 	dan tellen we over s1 heen voor het eerste woord.
 
 	Daarna zetten we i weer naar 0 en tellen we over s2 heen voor de tweede string,
-	en zetten we s1_len in s2 zodat hij wel de lengte van s1 weet.
+	en zetten we s1_len in s2 zodat we wel de lengte van s1 weten.
 	
 	Dan zeggen we dat ptr s1_len + s2_len het einde is zodat hij dan stopt.
 	Daarna return ptr.

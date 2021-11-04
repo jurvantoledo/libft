@@ -1,5 +1,12 @@
 #include "libft.h"
 
+/*
+	Deze functie past de gegeven functie f toe op elk teken van de gegeven
+	string om een ​​nieuwe string te maken die het resultaat is van functie
+	f op string s. Het stuurt een 'nieuwe' kopie van de gewijzigde string 
+	en index terug.
+*/
+
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	int		i;
