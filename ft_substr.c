@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   ft_substr.c                                        :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: jvan-tol <jvan-tol@student.codam.nl>         +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2022/03/14 15:44:03 by jvan-tol      #+#    #+#                 */
+/*   Updated: 2022/03/14 15:44:05 by jvan-tol      ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 // we use sizeof(char) to convert the datatype to char which is 1 byte

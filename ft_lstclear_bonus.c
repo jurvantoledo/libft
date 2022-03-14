@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   ft_lstclear_bonus.c                                :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: jvan-tol <jvan-tol@student.codam.nl>         +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2022/03/14 15:41:43 by jvan-tol      #+#    #+#                 */
+/*   Updated: 2022/03/14 15:41:45 by jvan-tol      ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 // Als wij iets verwijderen, verwijderen we daarbij het adres 

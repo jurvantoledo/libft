@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   ft_itoa.c                                          :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: jvan-tol <jvan-tol@student.codam.nl>         +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2022/03/14 15:41:04 by jvan-tol      #+#    #+#                 */
+/*   Updated: 2022/03/14 15:41:22 by jvan-tol      ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 /* 
@@ -34,10 +46,10 @@ int	get_length(int n)
 
 /* 
 	We gebruiken functie om te kijken of N een negatief getal is. 
-	Als dat zo is doen we n * -1
+	Als dat zo is doen we n * -1 om het weerk positief te maken.
 */
 
-int	is_Neg(int	k)
+int	is_neg(int k)
 {
 	if (k < 0)
 	{
@@ -79,11 +91,11 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 	while (n < -9 || n > 9)
 	{
-		str[len] = is_Neg(n % 10) + '0';
+		str[len] = is_neg(n % 10) + '0';
 		n = n / 10;
 		len--;
 	}
-	str[len] = is_Neg(n) + '0';
+	str[len] = is_neg(n) + '0';
 	return (str);
 }
 
